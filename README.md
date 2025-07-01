@@ -1,33 +1,57 @@
- 🏨 MERN Hotel Booking System
+# 🏡 Inno Homes
 
+Inno Homes is an innovative full-stack web application designed to simplify and enhance the property browsing, rental, and management experience. Whether you're a homeowner, a tenant, or a real estate agent, Inno Homes provides a seamless interface for listings, bookings, and property management.
 
+---
 
-🔧 Tech Stack
+## 🚀 Features
 
-- Frontend: React.js, Bootstrap, Axios, React Router
-- Backend: Node.js, Express.js
-- Database: MongoDB with Mongoose
-- Authentication: JWT, Bcrypt
-- *ayments: Stripe API
-- Deployment Read: Client-server proxy configured
+- 🏘️ Browse and search properties with advanced filters (price, location, amenities, etc.)
+- 👤 User authentication and authorization (JWT-based)
+- 🧾 Property listing and booking with real-time availability
+- 💳 Secure online payments via Stripe integration
+- 🗂️ Admin dashboard for property and user management
+- 📨 Contact forms and review system
+- 📱 Responsive UI with smooth user experience
 
+---
 
- ✨ Features
+## 🛠️ Tech Stack
 
-👤 User
-- Sign up, login, and logout
-- View available rooms
-- Book rooms and make payments via Stripe
-- See their own bookings and cancel them
+**Frontend:**
+- React.js
+- Tailwind CSS / Bootstrap
+- Axios
+- React Router
 
-🧑‍💼 Admin
-- Access dashboard to view all users
-- Manage rooms (add/remove/view)
-- View and manage all bookings
-  
- ⚙️ Common
-- Responsive UI
-- Reusable components (`Navbar`, `Loader`, `Success`, `Error`)
-- MongoDB JSON files to seed initial data
-- Secure API routes with role-based access
+**Backend:**
+- Node.js
+- Express.js
+- MongoDB (Mongoose ODM)
+- JWT for authentication
+- Stripe API
 
+**Dev Tools & Deployment:**
+- Git & GitHub
+- Postman (API testing)
+- Render / Vercel / Netlify / Railway (deployment options)
+- Cloudinary or Firebase (optional for image storage)
+
+---
+
+## 📦 Installation
+
+```bash
+# Clone the repo
+git clone https://github.com/your-username/inno-homes.git
+cd inno-homes
+
+# Frontend setup
+cd client
+npm install
+npm start
+
+# Backend setup
+cd ../server
+npm install
+npm run dev
