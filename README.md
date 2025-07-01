@@ -1,6 +1,6 @@
  🏨 MERN Hotel Booking System
 
-A full-stack hotel booking web application built using the MERN stack (MongoDB, Express.js, React.js, Node.js), featuring real-world functionalities such as room listings, bookings, user authentication (JWT), role-based admin management, and Stripe payment integration for seamless transactions.
+
 
 🔧 Tech Stack
 
